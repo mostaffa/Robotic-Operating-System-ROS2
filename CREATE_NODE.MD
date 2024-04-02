@@ -61,4 +61,8 @@ This document describes how to create a `ros2` node in the system.
     ros2 run my_robot_controller test_node
     ```
 6. The node is created successfully.
+7. Rebuild the workspace to reflect the changes:
+    ```bash
+    colcon build --symlink-install
+    ```
 
